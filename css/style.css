@@ -1,0 +1,204 @@
+/*! HTML5 Boilerplate v9.0.1 | MIT License | https://html5boilerplate.com/ */
+
+/* main.css 3.0.0 | MIT License | https://github.com/h5bp/main.css#readme */
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+
+:root {
+  font-family: "Montserrat";
+  /* Body */
+  --step-2: clamp(1.25rem, 1.1rem + 0.5vw, 1.5rem);
+  /* Large body */
+  --step-1: clamp(1.125rem, 1.05rem + 0.3vw, 1.25rem);
+  --step-0: clamp(1rem, 0.95rem + 0.2vw, 1.1rem);
+  /* Default text */
+
+}
+
+h1 svg {
+  height: 10vh;
+  display: inline-flex;
+  align-items: center;
+}
+
+
+
+* {
+  box-sizing: border-box;
+  /* margin: 0; */
+  /* padding: 0; */
+}
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+section h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+
+body {
+  background-repeat: no-repeat;
+
+}
+
+
+nav {
+  border-bottom: 1px solid #303030;
+}
+
+  a {
+    font-size: var(--step-2);
+    color: #111111;
+  }
+
+nav ul {
+  display: flex;
+  gap: 1vw;
+  list-style-type: none;
+}
+
+.about-img {
+  float: left;
+
+  width: min(50vw, 500px);
+  height: min(50vh, 500px);
+
+  object-fit: cover;
+
+  margin: 0 24px 14px 0;
+}
+
+
+#about {
+  min-height: 100vh;
+}
+
+#about p {
+  line-height: 2;
+}
+
+#main {
+  min-height: 100vh;
+}
+
+#reservation {
+  min-height: 50vh;
+}
+
+
+main {
+  padding: 10px;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   https://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+
+  a[href]::after {
+    content: " (" attr(href) ")";
+  }
+
+  abbr[title]::after {
+    content: " (" attr(title) ")";
+  }
+
+  /*
+   * Don't show links that are fragment identifiers,
+   * or use the `javascript:` pseudo protocol
+   */
+  a[href^="#"]::after,
+  a[href^="javascript:"]::after {
+    content: "";
+  }
+
+  pre {
+    white-space: pre-wrap !important;
+  }
+
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+
+
+section h2 {
+  text-align: center;
+}
+
+main h2 {
+  text-align: center;
+}
+
+
+footer {
+  background-color: plum;
+  margin-block: 0;
+}
+
+#menu {
+  width: 100%;              
+  margin: 0 auto;          
+  border-collapse: collapse; 
+  border: 1px solid #111;   
+}
+
+#menu td,
+#menu th {
+  padding: 15px;           
+  border: 1px solid #111; 
+}
