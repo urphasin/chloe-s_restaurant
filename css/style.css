@@ -205,3 +205,60 @@ footer {
   padding: 15px;           
   border: 1px solid #111; 
 }
+
+
+
+/* NEW MENU CONSTRUCTION */
+.menu {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.menu-category {
+  background: wheat;
+  padding: 25px;
+  border-radius: 12px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.menu-items {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.menu-item {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #eee;
+}
+
+.item-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item-name {
+  font-weight: 600;
+}
+
+.item-price {
+  font-weight: bold;
+  color: #e67e22;
+}
+
+.item-calories {
+  font-size: 0.85rem;
+  color: #777;
+}
+
+/* END NEW MENU CONSTRUCTION */
