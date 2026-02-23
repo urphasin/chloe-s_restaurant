@@ -188,6 +188,9 @@ main h2 {
 footer {
   background-color: plum;
   margin-block: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
 }
 
 #menu {
