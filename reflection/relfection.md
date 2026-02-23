@@ -1,18 +1,26 @@
-## What I did: What did you build and how long did it take?
-    Ans: I worked on a restaurant website. It took me 48 hours to complete.
+## What I did: What did you change and how long did it take?
+    Ans: I made the footer and menu with flexbox layout. It took 3-4hours
 
 
-## What worked well: What part of the images or tables made sense quickly?
-    Ans: Nothing made obvious sense
+## What worked well: Which Flexbox feature felt most powerful?
+    Ans: They all feel powerful
 
-## What was tricky: What was hardest about alt text or table structure?
-    Ans: Tricky was making my css design system to work with fonts and colors
+## What was tricky: What confused you about Flexbox?
+    Ans: I'm not confused I'm just slow processed.
     
-## Key insight: What did you learn about accessibility that surprised you?
-    Ans: Accessibility is a very hard problem to solve.
+## Key insight: How does your page look different from Lab 6?
+    Ans: Better menu for sure.
 
 ## Next steps: What will you work on improving in the next lab? (1 paragraph)
-    Ans: I'll continue improving my css design system
+    Ans: I'll continue improving my css design system and my design to code process
     
 ## Work quality: Pick the one that best describes your work:
     Ans: ✅ Portfolio-ready with improvements
+
+
+
+
+
+
+
+
