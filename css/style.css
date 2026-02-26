@@ -127,7 +127,7 @@ hr {
 
 
   a,
-  a:visited {
+  /* a:visited {
     text-decoration: underline;
   }
 
@@ -137,7 +137,7 @@ hr {
 
   abbr[title]::after {
     content: " (" attr(title) ")";
-  }
+  } */
 
   /*
    * Don't show links that are fragment identifiers,
