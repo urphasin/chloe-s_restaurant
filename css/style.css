@@ -1,14 +1,11 @@
+/* 
 :root {
   font-family: "Montserrat";
-  /* Body */
   --step-2: clamp(1.25rem, 1.1rem + 0.5vw, 1.5rem);
-  /* Large body */
   --step-1: clamp(1.125rem, 1.05rem + 0.3vw, 1.25rem);
   --step-0: clamp(1rem, 0.95rem + 0.2vw, 1.1rem);
-  /* Default text */
 
 }
-
 h1 svg {
   height: 10vh;
   display: inline-flex;
@@ -19,13 +16,10 @@ h1 svg {
 
 * {
   box-sizing: border-box;
-  /* margin: 0; */
-  /* padding: 0; */
+
 }
 
-/* ==========================================================================
-   Base styles: opinionated defaults
-   ========================================================================== */
+
 
 html {
   color: #222;
@@ -95,9 +89,7 @@ main {
   padding: 10px;
 }
 
-/*
- * A better looking default horizontal rule
- */
+
 
 hr {
   display: block;
@@ -143,7 +135,6 @@ footer {
 
 
 
-/* NEW MENU CONSTRUCTION */
 .menu {
   display: flex;
   justify-content: center;
@@ -196,4 +187,8 @@ footer {
   color: #777;
 }
 
-/* END NEW MENU CONSTRUCTION */
+ */
+
+.hide *{
+  display: none;
+}
