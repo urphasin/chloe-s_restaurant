@@ -201,7 +201,15 @@ footer {
   padding: 20px;
 }
 
-
+.starter-nav__list {
+  display: flex;
+  flex-direction: column;
+}
+@media(min-width: 768px) {
+  .starter-nav__list {
+    flex-direction: row;
+  }
+}
 
 .opacity-25 {
   opacity: .25;
