@@ -193,12 +193,15 @@ footer {
   display: none;
 }
 
+
 .wrapper {
   box-sizing: border-box;
   width: 1200px;
   margin: 0 auto 0 auto;
   padding: 20px;
 }
+
+
 
 .opacity-25 {
   opacity: .25;
